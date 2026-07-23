@@ -1,0 +1,27 @@
+<html>
+<link rel="stylesheet" href="MyIndex.css">
+<body>
+
+<form action="function.php" method="post">
+<!-- Username: <input type="text" name="uname"><br>
+Password: <input type="text" name="pass"><br>
+<input type="submit" value="Log In"> -->
+
+<div class="imgcontainer">
+   <img src="../HCCB_project/img/HCCB_logo.jpg" alt="Avatar" class="avatar">
+</div>
+
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" required>
+
+    <button type="submit">Login</button>
+</div>
+
+</form>
+
+</body>
+</html>
