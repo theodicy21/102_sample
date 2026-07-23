@@ -1,0 +1,47 @@
+/*.main {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+}*/
+
+.info {
+  display: flex; /* Use flexbox for side-by-side layout */
+  /*position: fixed;*/
+  flex-direction: row;
+  /*justify-content: center;*/
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: skyblue;
+
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  /*text-align: center;*/
+  width: 25%;
+  display: flex;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.namecontainer {
+  width: 75%;
+  /*display: flex;*/
+  margin: 24px 0 12px 0;
+  justify-content: center;
+}
+
+.biography {
+  display: flex;
+  /*position: fixed;*/
+  background-color: lightblue;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
